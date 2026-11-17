@@ -1,0 +1,97 @@
+{
+ "version": "1.3.0",
+ "groups": [
+  {
+   "id": "exo",
+   "name": "EXO",
+   "ko": "엑소",
+   "fr_vowel": true
+  },
+  {
+   "id": "cortis",
+   "name": "CORTIS",
+   "ko": "코르티스",
+   "fr_vowel": false
+  },
+  {
+   "id": "h2h",
+   "name": "Hearts2Hearts",
+   "ko": "하츠투하츠",
+   "fr_vowel": false
+  },
+  {
+   "id": "aespa",
+   "name": "aespa",
+   "ko": "에스파",
+   "fr_vowel": true
+  },
+  {
+   "id": "twice",
+   "name": "TWICE",
+   "ko": "트와이스",
+   "fr_vowel": false
+  },
+  {
+   "id": "izone",
+   "name": "IZ*ONE",
+   "ko": "아이즈원",
+   "fr_vowel": true
+  },
+  {
+   "id": "ive",
+   "name": "IVE",
+   "ko": "아이브",
+   "fr_vowel": true
+  }
+ ],
+ "stickers": [
+  {
+   "id": "first-seed",
+   "en": "First seed",
+   "vi": "Hạt đầu tiên",
+   "rule": "planted:1"
+  },
+  {
+   "id": "five-seeds",
+   "en": "Five seeds",
+   "vi": "Năm hạt giống",
+   "rule": "planted:5"
+  },
+  {
+   "id": "first-bloom",
+   "en": "First bloom",
+   "vi": "Bông hoa đầu tiên",
+   "rule": "bloomed:1"
+  },
+  {
+   "id": "ten-blooms",
+   "en": "Ten blooms",
+   "vi": "Mười bông hoa",
+   "rule": "bloomed:10"
+  },
+  {
+   "id": "first-visitor",
+   "en": "Yuna's friend",
+   "vi": "Bạn của Yuna",
+   "rule": "visitors:1"
+  },
+  {
+   "id": "hundred-waters",
+   "en": "100 waterings",
+   "vi": "100 lần tưới",
+   "rule": "reviews:100"
+  },
+  {
+   "id": "both-gardens",
+   "en": "Two gardens",
+   "vi": "Hai khu vườn",
+   "rule": "both"
+  },
+  {
+   "id": "hangul-reader",
+   "en": "Hangul reader",
+   "vi": "Đọc được Hangul",
+   "rule": "stage:k0"
+  }
+ ]
+}

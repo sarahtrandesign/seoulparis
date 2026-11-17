@@ -1,0 +1,1151 @@
+{
+ "lang": "fr",
+ "version": "1.3.0",
+ "stages": [
+  {
+   "id": "f0",
+   "title_en": "Sounds and spelling",
+   "title_vi": "Âm và chính tả",
+   "cefr": "Pre-A1"
+  },
+  {
+   "id": "f1",
+   "title_en": "Nasal sounds and linking",
+   "title_vi": "Âm mũi và nối âm",
+   "cefr": "Pre-A1"
+  },
+  {
+   "id": "f2",
+   "title_en": "Me and you",
+   "title_vi": "Tôi và bạn",
+   "cefr": "A1"
+  },
+  {
+   "id": "f3",
+   "title_en": "Things and colours",
+   "title_vi": "Đồ vật và màu sắc",
+   "cefr": "A1"
+  },
+  {
+   "id": "f4",
+   "title_en": "Doing things",
+   "title_vi": "Hành động",
+   "cefr": "A1"
+  },
+  {
+   "id": "f5",
+   "title_en": "Yesterday and tomorrow",
+   "title_vi": "Hôm qua và ngày mai",
+   "cefr": "A2"
+  }
+ ],
+ "seeds": [
+  {
+   "id": "f0-1",
+   "stage": "f0",
+   "glyph": "u",
+   "title": "u · ou",
+   "sub_en": "Two different “u” sounds",
+   "sub_vi": "Hai âm “u” khác nhau",
+   "explain_en": "French u: say “ee” and round your lips. ou is the English “oo”. Tu and tout are different words.",
+   "explain_vi": "Âm u tiếng Pháp tròn môi, lưỡi đưa ra trước. ou giống “u” tiếng Việt. Tu và tout là hai từ khác nhau.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "tu",
+     "en": "you (to a friend)",
+     "vi": "bạn (thân mật)",
+     "conf": [
+      "tout",
+      "toi"
+     ],
+     "id": "f0-1-1"
+    },
+    {
+     "kind": "sound",
+     "text": "tout",
+     "en": "all",
+     "vi": "tất cả",
+     "conf": [
+      "tu",
+      "toute"
+     ],
+     "id": "f0-1-2"
+    },
+    {
+     "kind": "sound",
+     "text": "vu",
+     "en": "seen",
+     "vi": "đã thấy",
+     "conf": [
+      "vous",
+      "vue"
+     ],
+     "id": "f0-1-3"
+    },
+    {
+     "kind": "sound",
+     "text": "vous",
+     "en": "you (polite or plural)",
+     "vi": "bạn (lịch sự, số nhiều)",
+     "conf": [
+      "vu",
+      "vos"
+     ],
+     "id": "f0-1-4"
+    },
+    {
+     "kind": "sound",
+     "text": "rue",
+     "en": "street",
+     "vi": "con phố",
+     "conf": [
+      "roue",
+      "rire"
+     ],
+     "id": "f0-1-5"
+    },
+    {
+     "kind": "sound",
+     "text": "roue",
+     "en": "wheel",
+     "vi": "bánh xe",
+     "conf": [
+      "rue",
+      "rouge"
+     ],
+     "id": "f0-1-6"
+    }
+   ]
+  },
+  {
+   "id": "f0-2",
+   "stage": "f0",
+   "glyph": "é",
+   "title": "é · è · silent letters",
+   "sub_en": "Accents and silent endings",
+   "sub_vi": "Dấu và chữ câm",
+   "explain_en": "é is a closed “ay”, è and ê are an open “eh”. Most final consonants are silent: petit is said “puh-tee”.",
+   "explain_vi": "é là “ê” khép, è và ê là “e” mở. Hầu hết phụ âm cuối là câm: petit đọc là “pơ-ti”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "café",
+     "en": "coffee, café",
+     "vi": "cà phê, quán cà phê",
+     "id": "f0-2-1"
+    },
+    {
+     "kind": "word",
+     "text": "très",
+     "en": "very",
+     "vi": "rất",
+     "id": "f0-2-2"
+    },
+    {
+     "kind": "word",
+     "text": "fête",
+     "en": "party",
+     "vi": "bữa tiệc",
+     "id": "f0-2-3"
+    },
+    {
+     "kind": "word",
+     "text": "petit",
+     "en": "small",
+     "vi": "nhỏ",
+     "id": "f0-2-4"
+    },
+    {
+     "kind": "word",
+     "text": "trois",
+     "en": "three",
+     "vi": "ba",
+     "id": "f0-2-5"
+    },
+    {
+     "kind": "word",
+     "text": "merci",
+     "en": "thank you",
+     "vi": "cảm ơn",
+     "id": "f0-2-6"
+    }
+   ]
+  },
+  {
+   "id": "f0-3",
+   "stage": "f0",
+   "glyph": "r",
+   "title": "the French r",
+   "sub_en": "The r in the throat",
+   "sub_vi": "Âm r ở cổ họng",
+   "explain_en": "The French r is made at the back of the throat, a soft scrape. Rouge, rose and frère all use it.",
+   "explain_vi": "Âm r tiếng Pháp phát ra ở sau cổ họng, như một tiếng khàn nhẹ. Rouge, rose và frère đều dùng âm này.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "rouge",
+     "en": "red",
+     "vi": "đỏ",
+     "id": "f0-3-1"
+    },
+    {
+     "kind": "word",
+     "text": "rose",
+     "en": "pink, a rose",
+     "vi": "hồng, hoa hồng",
+     "id": "f0-3-2"
+    },
+    {
+     "kind": "word",
+     "text": "frère",
+     "en": "brother",
+     "vi": "anh/em trai",
+     "id": "f0-3-3"
+    },
+    {
+     "kind": "word",
+     "text": "bonjour",
+     "en": "hello",
+     "vi": "xin chào",
+     "id": "f0-3-4"
+    },
+    {
+     "kind": "word",
+     "text": "au revoir",
+     "en": "goodbye",
+     "vi": "tạm biệt",
+     "label": "revoir",
+     "id": "f0-3-5"
+    }
+   ]
+  },
+  {
+   "id": "f1-1",
+   "stage": "f1",
+   "glyph": "on",
+   "title": "an · on · in · un",
+   "sub_en": "Nasal vowels",
+   "sub_vi": "Nguyên âm mũi",
+   "explain_en": "When n or m follows a vowel at the end of a syllable, the vowel goes through the nose and the n is not said: bon, blanc, jardin.",
+   "explain_vi": "Khi n hoặc m đứng sau nguyên âm ở cuối âm tiết, nguyên âm đi qua mũi và không đọc n: bon, blanc, jardin.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "bon",
+     "en": "good",
+     "vi": "ngon, tốt",
+     "id": "f1-1-1"
+    },
+    {
+     "kind": "word",
+     "text": "blanc",
+     "en": "white",
+     "vi": "trắng",
+     "id": "f1-1-2"
+    },
+    {
+     "kind": "word",
+     "text": "pain",
+     "en": "bread",
+     "vi": "bánh mì",
+     "id": "f1-1-3"
+    },
+    {
+     "kind": "word",
+     "text": "chanson",
+     "en": "song",
+     "vi": "bài hát",
+     "id": "f1-1-4"
+    },
+    {
+     "kind": "word",
+     "text": "jardin",
+     "en": "garden",
+     "vi": "khu vườn",
+     "id": "f1-1-5"
+    },
+    {
+     "kind": "word",
+     "text": "concert",
+     "en": "concert",
+     "vi": "buổi hòa nhạc",
+     "id": "f1-1-6"
+    }
+   ]
+  },
+  {
+   "id": "f1-2",
+   "stage": "f1",
+   "glyph": "‿",
+   "title": "les‿amis",
+   "sub_en": "Linking words (liaison)",
+   "sub_vi": "Nối âm (liaison)",
+   "explain_en": "A silent final letter wakes up when the next word starts with a vowel: les amis is said “lay-za-mee”.",
+   "explain_vi": "Chữ cuối câm sẽ được đọc khi từ sau bắt đầu bằng nguyên âm: les amis đọc là “lê-da-mi”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "les amis",
+     "en": "the friends",
+     "vi": "những người bạn",
+     "label": "amis",
+     "id": "f1-2-1"
+    },
+    {
+     "kind": "word",
+     "text": "un album",
+     "en": "an album",
+     "vi": "một album",
+     "label": "album",
+     "id": "f1-2-2"
+    },
+    {
+     "kind": "word",
+     "text": "vous avez",
+     "en": "you have (polite)",
+     "vi": "bạn có (lịch sự)",
+     "label": "avez",
+     "id": "f1-2-3"
+    },
+    {
+     "kind": "word",
+     "text": "deux heures",
+     "en": "two o'clock",
+     "vi": "hai giờ",
+     "label": "heures",
+     "id": "f1-2-4"
+    }
+   ]
+  },
+  {
+   "id": "f2-1",
+   "stage": "f2",
+   "glyph": "tu",
+   "title": "tu / vous · salut",
+   "sub_en": "Hello, and tu or vous",
+   "sub_vi": "Chào hỏi, tu hay vous",
+   "explain_en": "Use tu with friends and people your age, vous with strangers, older people or a group. Salut is casual, bonjour works everywhere.",
+   "explain_vi": "Dùng tu với bạn bè và người cùng tuổi, vous với người lạ, người lớn tuổi hoặc nhiều người. Salut là thân mật, bonjour dùng được mọi nơi.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Salut ! Ça va ?",
+     "en": "Hi! How are you?",
+     "vi": "Chào! Bạn khỏe không?",
+     "label": "Ça va ?",
+     "id": "f2-1-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Ça va bien, merci !",
+     "en": "I'm fine, thanks!",
+     "vi": "Mình khỏe, cảm ơn!",
+     "label": "Ça va bien",
+     "id": "f2-1-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Comment tu t'appelles ?",
+     "en": "What's your name? (to a friend)",
+     "vi": "Bạn tên gì? (thân mật)",
+     "label": "t'appelles",
+     "id": "f2-1-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "Je m'appelle Yuna.",
+     "en": "My name is Yuna.",
+     "vi": "Mình tên là Yuna.",
+     "label": "m'appelle",
+     "id": "f2-1-4"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Salut ! Ça va ?",
+     "en": "Hi! How are you?",
+     "vi": "Chào! Bạn khỏe không?",
+     "label": "Ça va ?",
+     "replies": [
+      {
+       "text": "Ça va bien, merci !",
+       "en": "I'm fine, thanks!",
+       "vi": "Mình khỏe, cảm ơn!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Au revoir !",
+       "en": "Goodbye!",
+       "vi": "Tạm biệt!",
+       "ok": false,
+       "why_en": "Yuna just said hi. Don't leave yet!",
+       "why_vi": "Yuna vừa chào. Đừng tạm biệt vội!"
+      },
+      {
+       "text": "Je vais au concert.",
+       "en": "I'm going to the concert.",
+       "vi": "Mình đi xem concert.",
+       "ok": false,
+       "why_en": "She asked how you are.",
+       "why_vi": "Bạn ấy hỏi bạn có khỏe không."
+      }
+     ],
+     "id": "f2-1-5"
+    }
+   ]
+  },
+  {
+   "id": "f2-2",
+   "stage": "f2",
+   "glyph": "es",
+   "title": "je suis · tu es",
+   "sub_en": "être: to be",
+   "sub_vi": "être: là, thì",
+   "explain_en": "être is irregular: je suis, tu es, il/elle est, on est. “Fan” stays the same for everyone.",
+   "explain_vi": "être là động từ bất quy tắc: je suis, tu es, il/elle est, on est. “Fan” không đổi.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Je suis fan {g:de}.",
+     "en": "I'm a {g} fan.",
+     "vi": "Mình là fan {g}.",
+     "label": "fan",
+     "id": "f2-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Tu es là ?",
+     "en": "Are you there?",
+     "vi": "Bạn có ở đó không?",
+     "label": "Tu es",
+     "id": "f2-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Elle est coréenne.",
+     "en": "She is Korean.",
+     "vi": "Cô ấy là người Hàn.",
+     "label": "coréenne",
+     "id": "f2-2-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "C'est génial !",
+     "en": "It's great!",
+     "vi": "Tuyệt quá!",
+     "label": "génial",
+     "id": "f2-2-4"
+    }
+   ]
+  },
+  {
+   "id": "f2-3",
+   "stage": "f2",
+   "glyph": "ai",
+   "title": "j'ai · tu as · on a",
+   "sub_en": "avoir: to have",
+   "sub_vi": "avoir: có",
+   "explain_en": "avoir: j'ai, tu as, il/elle a, on a. on is everyday French for “we”.",
+   "explain_vi": "avoir: j'ai, tu as, il/elle a, on a. on là cách nói hằng ngày của “chúng ta”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "J'ai un billet.",
+     "en": "I have a ticket.",
+     "vi": "Mình có một vé.",
+     "label": "billet",
+     "id": "f2-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Tu as l'album ?",
+     "en": "Do you have the album?",
+     "vi": "Bạn có album không?",
+     "label": "l'album",
+     "id": "f2-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "On a le temps.",
+     "en": "We have time.",
+     "vi": "Chúng ta có thời gian.",
+     "label": "le temps",
+     "id": "f2-3-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Tu as un billet ?",
+     "en": "Do you have a ticket?",
+     "vi": "Bạn có vé không?",
+     "label": "billet ?",
+     "replies": [
+      {
+       "text": "Oui, j'ai un billet !",
+       "en": "Yes, I have a ticket!",
+       "vi": "Có, mình có vé!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Oui, je suis un billet.",
+       "en": "Yes, I am a ticket.",
+       "vi": "Có, mình là một tấm vé.",
+       "ok": false,
+       "why_en": "Use avoir (have), not être (be).",
+       "why_vi": "Dùng avoir (có), không phải être (là)."
+      },
+      {
+       "text": "Non, j'ai un billet.",
+       "en": "No, I have a ticket.",
+       "vi": "Không, mình có vé.",
+       "ok": false,
+       "why_en": "Non and “I have one” don't match.",
+       "why_vi": "Non và “mình có” không khớp."
+      }
+     ],
+     "id": "f2-3-4"
+    }
+   ]
+  },
+  {
+   "id": "f2-4",
+   "stage": "f2",
+   "glyph": "3",
+   "title": "un, deux, trois",
+   "sub_en": "Numbers",
+   "sub_vi": "Số đếm",
+   "explain_en": "1 to 10 first. Then a French quirk: 70 is soixante-dix (60+10), 80 is quatre-vingts (4×20), 90 is quatre-vingt-dix (4×20+10).",
+   "explain_vi": "Học 1 đến 10 trước. Rồi đến điểm lạ: 70 là soixante-dix (60+10), 80 là quatre-vingts (4×20), 90 là quatre-vingt-dix (4×20+10).",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "un",
+     "en": "one",
+     "vi": "một",
+     "id": "f2-4-1"
+    },
+    {
+     "kind": "word",
+     "text": "deux",
+     "en": "two",
+     "vi": "hai",
+     "id": "f2-4-2"
+    },
+    {
+     "kind": "word",
+     "text": "cinq",
+     "en": "five",
+     "vi": "năm",
+     "id": "f2-4-3"
+    },
+    {
+     "kind": "word",
+     "text": "dix",
+     "en": "ten",
+     "vi": "mười",
+     "id": "f2-4-4"
+    },
+    {
+     "kind": "word",
+     "text": "soixante-dix",
+     "en": "seventy",
+     "vi": "bảy mươi",
+     "label": "70",
+     "id": "f2-4-5"
+    },
+    {
+     "kind": "word",
+     "text": "quatre-vingts",
+     "en": "eighty",
+     "vi": "tám mươi",
+     "label": "80",
+     "id": "f2-4-6"
+    },
+    {
+     "kind": "word",
+     "text": "quatre-vingt-dix",
+     "en": "ninety",
+     "vi": "chín mươi",
+     "label": "90",
+     "id": "f2-4-7"
+    }
+   ]
+  },
+  {
+   "id": "f3-1",
+   "stage": "f3",
+   "glyph": "la",
+   "title": "le · la · un · une",
+   "sub_en": "Every noun has a gender",
+   "sub_vi": "Danh từ có giống",
+   "explain_en": "Every French noun is masculine (le, un) or feminine (la, une). Learn the article with the word. Plural is les or des.",
+   "explain_vi": "Mỗi danh từ tiếng Pháp là giống đực (le, un) hoặc giống cái (la, une). Học mạo từ cùng với từ. Số nhiều là les hoặc des.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "le jardin",
+     "en": "the garden",
+     "vi": "khu vườn",
+     "label": "jardin",
+     "id": "f3-1-1"
+    },
+    {
+     "kind": "word",
+     "text": "la fleur",
+     "en": "the flower",
+     "vi": "bông hoa",
+     "label": "fleur",
+     "id": "f3-1-2"
+    },
+    {
+     "kind": "word",
+     "text": "une chanson",
+     "en": "a song",
+     "vi": "một bài hát",
+     "label": "chanson",
+     "id": "f3-1-3"
+    },
+    {
+     "kind": "word",
+     "text": "un concert",
+     "en": "a concert",
+     "vi": "một buổi hòa nhạc",
+     "label": "concert",
+     "id": "f3-1-4"
+    },
+    {
+     "kind": "word",
+     "text": "les fleurs",
+     "en": "the flowers",
+     "vi": "những bông hoa",
+     "label": "fleurs",
+     "id": "f3-1-5"
+    }
+   ]
+  },
+  {
+   "id": "f3-2",
+   "stage": "f3",
+   "glyph": "au",
+   "title": "au · à la · aux",
+   "sub_en": "to the: à + le = au",
+   "sub_vi": "đến: à + le = au",
+   "explain_en": "à + le joins into au, à + les into aux. à la and à l' stay as they are.",
+   "explain_vi": "à + le gộp thành au, à + les thành aux. à la và à l' giữ nguyên.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Je vais au concert.",
+     "en": "I'm going to the concert.",
+     "vi": "Mình đi xem concert.",
+     "label": "au concert",
+     "id": "f3-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Je suis à la maison.",
+     "en": "I'm at home.",
+     "vi": "Mình ở nhà.",
+     "label": "à la maison",
+     "id": "f3-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "On va aux concerts ensemble.",
+     "en": "We go to concerts together.",
+     "vi": "Chúng mình đi xem concert cùng nhau.",
+     "label": "aux",
+     "id": "f3-2-3"
+    }
+   ]
+  },
+  {
+   "id": "f3-3",
+   "stage": "f3",
+   "glyph": "pas",
+   "title": "ne … pas de",
+   "sub_en": "not any",
+   "sub_vi": "không có",
+   "explain_en": "Wrap the verb in ne … pas. After a negative, un, une and du become de: j'ai un billet → je n'ai pas de billet.",
+   "explain_vi": "Bao động từ bằng ne … pas. Sau phủ định, un, une và du thành de: j'ai un billet → je n'ai pas de billet.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Je n'ai pas de billet.",
+     "en": "I don't have a ticket.",
+     "vi": "Mình không có vé.",
+     "label": "pas de",
+     "id": "f3-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Il n'y a pas de café.",
+     "en": "There's no coffee.",
+     "vi": "Không có cà phê.",
+     "label": "pas de café",
+     "id": "f3-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Je ne danse pas.",
+     "en": "I don't dance.",
+     "vi": "Mình không nhảy.",
+     "label": "ne … pas",
+     "id": "f3-3-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Il y a du café ?",
+     "en": "Is there any coffee?",
+     "vi": "Có cà phê không?",
+     "label": "café ?",
+     "replies": [
+      {
+       "text": "Non, il n'y a pas de café.",
+       "en": "No, there's no coffee.",
+       "vi": "Không, không có cà phê.",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Non, il n'y a pas du café.",
+       "en": "(du after a negative)",
+       "vi": "(du sau phủ định)",
+       "ok": false,
+       "why_en": "After pas, du becomes de.",
+       "why_vi": "Sau pas, du thành de."
+      },
+      {
+       "text": "Non, il y a café.",
+       "en": "(missing ne … pas)",
+       "vi": "(thiếu ne … pas)",
+       "ok": false,
+       "why_en": "A negative needs ne … pas.",
+       "why_vi": "Câu phủ định cần ne … pas."
+      }
+     ],
+     "id": "f3-3-4"
+    }
+   ]
+  },
+  {
+   "id": "f3-4",
+   "stage": "f3",
+   "glyph": "e",
+   "title": "rose · roses · petite",
+   "sub_en": "Words that agree",
+   "sub_vi": "Tính từ hợp giống, số",
+   "explain_en": "Adjectives match the noun: add e for feminine and s for plural. Most colours come after the noun.",
+   "explain_vi": "Tính từ hợp với danh từ: thêm e cho giống cái, s cho số nhiều. Hầu hết màu đứng sau danh từ.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "une fleur jaune",
+     "en": "a yellow flower",
+     "vi": "một bông hoa vàng",
+     "label": "jaune",
+     "id": "f3-4-1"
+    },
+    {
+     "kind": "word",
+     "text": "des fleurs roses",
+     "en": "pink flowers",
+     "vi": "những bông hoa màu hồng",
+     "label": "roses",
+     "id": "f3-4-2"
+    },
+    {
+     "kind": "word",
+     "text": "un petit jardin",
+     "en": "a small garden",
+     "vi": "một khu vườn nhỏ",
+     "label": "petit",
+     "id": "f3-4-3"
+    },
+    {
+     "kind": "word",
+     "text": "une petite fleur",
+     "en": "a small flower",
+     "vi": "một bông hoa nhỏ",
+     "label": "petite",
+     "id": "f3-4-4"
+    },
+    {
+     "kind": "order",
+     "text": "Trois fleurs roses, s'il te plaît !",
+     "en": "Three pink flowers, please!",
+     "vi": "Cho mình ba bông hoa màu hồng nhé!",
+     "label": "trois",
+     "want": {
+      "color": "pink",
+      "count": 3
+     },
+     "options": [
+      {
+       "color": "pink",
+       "count": 3
+      },
+      {
+       "color": "pink",
+       "count": 2
+      },
+      {
+       "color": "yellow",
+       "count": 3
+      }
+     ],
+     "id": "f3-4-5"
+    }
+   ]
+  },
+  {
+   "id": "f4-1",
+   "stage": "f4",
+   "glyph": "er",
+   "title": "aimer · écouter",
+   "sub_en": "-er verbs",
+   "sub_vi": "Động từ -er",
+   "explain_en": "Most verbs end in -er. Drop -er and add -e, -es, -e: j'aime, tu aimes, on aime. The endings are silent.",
+   "explain_vi": "Hầu hết động từ tận cùng bằng -er. Bỏ -er và thêm -e, -es, -e: j'aime, tu aimes, on aime. Đuôi này không đọc.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "J'aime {g} !",
+     "en": "I love {g}!",
+     "vi": "Mình thích {g}!",
+     "label": "J'aime",
+     "id": "f4-1-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Tu aimes la musique ?",
+     "en": "Do you like music?",
+     "vi": "Bạn thích âm nhạc không?",
+     "label": "aimes",
+     "id": "f4-1-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "On écoute la chanson.",
+     "en": "We're listening to the song.",
+     "vi": "Chúng mình nghe bài hát.",
+     "label": "écoute",
+     "id": "f4-1-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Tu aimes quel groupe ?",
+     "en": "Which group do you like?",
+     "vi": "Bạn thích nhóm nào?",
+     "label": "groupe ?",
+     "replies": [
+      {
+       "text": "J'aime {g} !",
+       "en": "I love {g}!",
+       "vi": "Mình thích {g}!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Je suis {g}.",
+       "en": "I am {g}.",
+       "vi": "Mình là {g}.",
+       "ok": false,
+       "why_en": "That says you ARE the group.",
+       "why_vi": "Câu đó nói bạn LÀ nhóm nhạc."
+      },
+      {
+       "text": "J'aime de {g}.",
+       "en": "(extra de)",
+       "vi": "(thừa de)",
+       "ok": false,
+       "why_en": "aimer takes the thing directly, no de.",
+       "why_vi": "aimer đi thẳng với tân ngữ, không cần de."
+      }
+     ],
+     "id": "f4-1-4"
+    }
+   ]
+  },
+  {
+   "id": "f4-2",
+   "stage": "f4",
+   "glyph": "va",
+   "title": "aller · faire · prendre",
+   "sub_en": "Three everyday irregulars",
+   "sub_vi": "Ba động từ bất quy tắc",
+   "explain_en": "je vais (I go), je fais (I do), je prends (I take). Learn them as whole words.",
+   "explain_vi": "je vais (tôi đi), je fais (tôi làm), je prends (tôi lấy). Học thuộc như từ nguyên khối.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Qu'est-ce que tu fais ?",
+     "en": "What are you doing?",
+     "vi": "Bạn đang làm gì?",
+     "label": "tu fais",
+     "id": "f4-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Je prends une photo.",
+     "en": "I'm taking a photo.",
+     "vi": "Mình đang chụp ảnh.",
+     "label": "je prends",
+     "id": "f4-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "On va au jardin.",
+     "en": "We're going to the garden.",
+     "vi": "Chúng mình ra vườn.",
+     "label": "on va",
+     "id": "f4-2-3"
+    }
+   ]
+  },
+  {
+   "id": "f4-3",
+   "stage": "f4",
+   "glyph": "?",
+   "title": "où · combien · quelle heure",
+   "sub_en": "Asking questions",
+   "sub_vi": "Đặt câu hỏi",
+   "explain_en": "In speech, raise your voice at the end to ask. Question words: où (where), combien (how much), quelle heure (what time).",
+   "explain_vi": "Khi nói, lên giọng ở cuối câu để hỏi. Từ để hỏi: où (ở đâu), combien (bao nhiêu), quelle heure (mấy giờ).",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Tu viens ?",
+     "en": "Are you coming?",
+     "vi": "Bạn đến không?",
+     "label": "viens ?",
+     "id": "f4-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Où est le concert ?",
+     "en": "Where is the concert?",
+     "vi": "Concert ở đâu?",
+     "label": "où ?",
+     "id": "f4-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "C'est combien ?",
+     "en": "How much is it?",
+     "vi": "Bao nhiêu tiền?",
+     "label": "combien ?",
+     "id": "f4-3-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "À quelle heure ?",
+     "en": "At what time?",
+     "vi": "Lúc mấy giờ?",
+     "label": "heure ?",
+     "id": "f4-3-4"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Où est le concert ?",
+     "en": "Where is the concert?",
+     "vi": "Concert ở đâu?",
+     "label": "où ?",
+     "replies": [
+      {
+       "text": "Le concert est à Séoul.",
+       "en": "The concert is in Seoul.",
+       "vi": "Concert ở Seoul.",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Le concert est à huit heures.",
+       "en": "The concert is at eight.",
+       "vi": "Concert lúc tám giờ.",
+       "ok": false,
+       "why_en": "That's when, not where.",
+       "why_vi": "Đó là lúc nào, không phải ở đâu."
+      },
+      {
+       "text": "Oui, le concert.",
+       "en": "Yes, the concert.",
+       "vi": "Vâng, concert.",
+       "ok": false,
+       "why_en": "Où asks for a place.",
+       "why_vi": "Où hỏi về địa điểm."
+      }
+     ],
+     "id": "f4-3-5"
+    }
+   ]
+  },
+  {
+   "id": "f5-1",
+   "stage": "f5",
+   "glyph": "→",
+   "title": "je vais + verb",
+   "sub_en": "going to (future)",
+   "sub_vi": "sắp, sẽ",
+   "explain_en": "aller + an infinitive talks about plans: je vais acheter = I'm going to buy.",
+   "explain_vi": "aller + động từ nguyên mẫu để nói kế hoạch: je vais acheter = tôi sẽ mua.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Je vais acheter l'album.",
+     "en": "I'm going to buy the album.",
+     "vi": "Mình sẽ mua album.",
+     "label": "acheter",
+     "id": "f5-1-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "On va chanter !",
+     "en": "We're going to sing!",
+     "vi": "Chúng mình sẽ hát!",
+     "label": "chanter",
+     "id": "f5-1-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Tu vas venir ?",
+     "en": "Are you going to come?",
+     "vi": "Bạn sẽ đến chứ?",
+     "label": "venir",
+     "id": "f5-1-3"
+    }
+   ]
+  },
+  {
+   "id": "f5-2",
+   "stage": "f5",
+   "glyph": "é",
+   "title": "j'ai vu · j'ai aimé",
+   "sub_en": "the past with avoir",
+   "sub_vi": "quá khứ với avoir",
+   "explain_en": "Most past actions use avoir + a past participle: j'ai aimé (I liked), j'ai vu (I saw).",
+   "explain_vi": "Đa số hành động quá khứ dùng avoir + phân từ quá khứ: j'ai aimé (tôi đã thích), j'ai vu (tôi đã xem).",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "J'ai vu le concert.",
+     "en": "I saw the concert.",
+     "vi": "Mình đã xem concert.",
+     "label": "j'ai vu",
+     "id": "f5-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "J'ai aimé la chanson.",
+     "en": "I liked the song.",
+     "vi": "Mình đã thích bài hát.",
+     "label": "j'ai aimé",
+     "id": "f5-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Tu as écouté l'album ?",
+     "en": "Did you listen to the album?",
+     "vi": "Bạn đã nghe album chưa?",
+     "label": "écouté",
+     "id": "f5-2-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "Tu as aimé le concert ?",
+     "en": "Did you like the concert?",
+     "vi": "Bạn có thích concert không?",
+     "label": "concert ?",
+     "replies": [
+      {
+       "text": "Oui, j'ai adoré !",
+       "en": "Yes, I loved it!",
+       "vi": "Có, mình mê lắm!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "Oui, je vais adorer.",
+       "en": "Yes, I'm going to love it.",
+       "vi": "Có, mình sẽ mê.",
+       "ok": false,
+       "why_en": "The concert is over, so use the past.",
+       "why_vi": "Concert đã xong, nên dùng quá khứ."
+      },
+      {
+       "text": "Oui, j'adore demain.",
+       "en": "(mixed-up time)",
+       "vi": "(sai thời gian)",
+       "ok": false,
+       "why_en": "Demain (tomorrow) doesn't fit a finished concert.",
+       "why_vi": "Demain (ngày mai) không hợp với concert đã xong."
+      }
+     ],
+     "id": "f5-2-4"
+    }
+   ]
+  },
+  {
+   "id": "f5-3",
+   "stage": "f5",
+   "glyph": "ée",
+   "title": "je suis allé(e)",
+   "sub_en": "the past with être",
+   "sub_vi": "quá khứ với être",
+   "explain_en": "Verbs of moving (aller, venir, arriver) use être, and the past participle agrees: elle est arrivée.",
+   "explain_vi": "Động từ chỉ di chuyển (aller, venir, arriver) dùng être, và phân từ hợp giống số: elle est arrivée.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "Elle est arrivée.",
+     "en": "She has arrived.",
+     "vi": "Cô ấy đã đến.",
+     "label": "arrivée",
+     "id": "f5-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "Nous sommes allés au concert.",
+     "en": "We went to the concert.",
+     "vi": "Chúng tôi đã đi xem concert.",
+     "label": "allés",
+     "id": "f5-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "Il est venu au jardin.",
+     "en": "He came to the garden.",
+     "vi": "Anh ấy đã đến khu vườn.",
+     "label": "venu",
+     "id": "f5-3-3"
+    }
+   ]
+  }
+ ]
+}

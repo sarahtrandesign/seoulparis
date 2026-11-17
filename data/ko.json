@@ -1,0 +1,1537 @@
+{
+ "lang": "ko",
+ "version": "1.3.0",
+ "stages": [
+  {
+   "id": "k0",
+   "title_en": "Hangul basics",
+   "title_vi": "Chữ Hangul cơ bản",
+   "cefr": "Pre-A1"
+  },
+  {
+   "id": "k1",
+   "title_en": "Sound pairs",
+   "title_vi": "Cặp âm dễ nhầm",
+   "cefr": "Pre-A1"
+  },
+  {
+   "id": "k2",
+   "title_en": "Final sounds",
+   "title_vi": "Phụ âm cuối",
+   "cefr": "Pre-A1"
+  },
+  {
+   "id": "k3",
+   "title_en": "Sounds that change",
+   "title_vi": "Âm biến đổi",
+   "cefr": "A1"
+  },
+  {
+   "id": "k4",
+   "title_en": "First sentences",
+   "title_vi": "Câu đầu tiên",
+   "cefr": "A1"
+  },
+  {
+   "id": "k5",
+   "title_en": "Everyday grammar",
+   "title_vi": "Ngữ pháp hằng ngày",
+   "cefr": "A2"
+  }
+ ],
+ "seeds": [
+  {
+   "id": "k0-1",
+   "stage": "k0",
+   "glyph": "아",
+   "title": "아 어 오 우 으 이",
+   "sub_en": "Six basic vowels",
+   "sub_vi": "Sáu nguyên âm cơ bản",
+   "explain_en": "Every Korean syllable is a block. ㅇ at the start is silent, so 아 is just the vowel “a”. Vertical vowels sit to the right, horizontal ones sit below.",
+   "explain_vi": "Mỗi âm tiết tiếng Hàn là một khối. ㅇ ở đầu không phát âm, nên 아 chỉ là nguyên âm “a”. Nguyên âm dọc đứng bên phải, nguyên âm ngang nằm bên dưới.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "아",
+     "rom": "a",
+     "en": "a, as in “father”",
+     "vi": "a",
+     "conf": [
+      "어",
+      "오"
+     ],
+     "id": "k0-1-1"
+    },
+    {
+     "kind": "sound",
+     "text": "어",
+     "rom": "eo",
+     "en": "eo, an open “uh”",
+     "vi": "ơ",
+     "conf": [
+      "오",
+      "아"
+     ],
+     "id": "k0-1-2"
+    },
+    {
+     "kind": "sound",
+     "text": "오",
+     "rom": "o",
+     "en": "o, rounded lips",
+     "vi": "ô",
+     "conf": [
+      "우",
+      "어"
+     ],
+     "id": "k0-1-3"
+    },
+    {
+     "kind": "sound",
+     "text": "우",
+     "rom": "u",
+     "en": "u, as in “food”",
+     "vi": "u",
+     "conf": [
+      "으",
+      "오"
+     ],
+     "id": "k0-1-4"
+    },
+    {
+     "kind": "sound",
+     "text": "으",
+     "rom": "eu",
+     "en": "eu, lips flat",
+     "vi": "ư",
+     "conf": [
+      "우",
+      "이"
+     ],
+     "id": "k0-1-5"
+    },
+    {
+     "kind": "sound",
+     "text": "이",
+     "rom": "i",
+     "en": "i, as in “see”",
+     "vi": "i",
+     "conf": [
+      "으",
+      "아"
+     ],
+     "id": "k0-1-6"
+    }
+   ]
+  },
+  {
+   "id": "k0-2",
+   "stage": "k0",
+   "glyph": "가",
+   "title": "가 나 다 라 마",
+   "sub_en": "First consonants",
+   "sub_vi": "Phụ âm đầu tiên",
+   "explain_en": "Swap the silent ㅇ for a consonant and the block makes a new syllable: ㄱ+ㅏ = 가. ㄹ sounds between “r” and “l”.",
+   "explain_vi": "Thay ㅇ câm bằng một phụ âm là có âm tiết mới: ㄱ+ㅏ = 가. ㄹ nghe giữa “r” và “l”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "가",
+     "rom": "ga",
+     "en": "ga",
+     "vi": "ga",
+     "conf": [
+      "나",
+      "카"
+     ],
+     "id": "k0-2-1"
+    },
+    {
+     "kind": "sound",
+     "text": "나",
+     "rom": "na",
+     "en": "na",
+     "vi": "na",
+     "conf": [
+      "다",
+      "마"
+     ],
+     "id": "k0-2-2"
+    },
+    {
+     "kind": "sound",
+     "text": "다",
+     "rom": "da",
+     "en": "da",
+     "vi": "đa",
+     "conf": [
+      "타",
+      "나"
+     ],
+     "id": "k0-2-3"
+    },
+    {
+     "kind": "sound",
+     "text": "라",
+     "rom": "ra",
+     "en": "ra, a light tap",
+     "vi": "ra (lướt nhẹ)",
+     "conf": [
+      "나",
+      "다"
+     ],
+     "id": "k0-2-4"
+    },
+    {
+     "kind": "sound",
+     "text": "마",
+     "rom": "ma",
+     "en": "ma",
+     "vi": "ma",
+     "conf": [
+      "나",
+      "바"
+     ],
+     "id": "k0-2-5"
+    }
+   ]
+  },
+  {
+   "id": "k0-3",
+   "stage": "k0",
+   "glyph": "바",
+   "title": "바 사 자 하",
+   "sub_en": "More consonants",
+   "sub_vi": "Thêm phụ âm",
+   "explain_en": "ㅂ is a soft “b/p”, ㅅ is “s”, ㅈ is a soft “j”, ㅎ is “h”.",
+   "explain_vi": "ㅂ là “b/p” nhẹ, ㅅ là “s”, ㅈ là “j” nhẹ, ㅎ là “h”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "바",
+     "rom": "ba",
+     "en": "ba",
+     "vi": "ba",
+     "conf": [
+      "파",
+      "마"
+     ],
+     "id": "k0-3-1"
+    },
+    {
+     "kind": "sound",
+     "text": "사",
+     "rom": "sa",
+     "en": "sa",
+     "vi": "xa",
+     "conf": [
+      "자",
+      "싸"
+     ],
+     "id": "k0-3-2"
+    },
+    {
+     "kind": "sound",
+     "text": "자",
+     "rom": "ja",
+     "en": "ja",
+     "vi": "cha (nhẹ)",
+     "conf": [
+      "차",
+      "사"
+     ],
+     "id": "k0-3-3"
+    },
+    {
+     "kind": "sound",
+     "text": "하",
+     "rom": "ha",
+     "en": "ha",
+     "vi": "ha",
+     "conf": [
+      "아",
+      "가"
+     ],
+     "id": "k0-3-4"
+    },
+    {
+     "kind": "sound",
+     "text": "호",
+     "rom": "ho",
+     "en": "ho",
+     "vi": "hô",
+     "conf": [
+      "후",
+      "하"
+     ],
+     "id": "k0-3-5"
+    }
+   ]
+  },
+  {
+   "id": "k0-4",
+   "stage": "k0",
+   "glyph": "무",
+   "title": "나무 · 우유",
+   "sub_en": "First words to read",
+   "sub_vi": "Từ đầu tiên để đọc",
+   "explain_en": "You can already read real words. Put the blocks side by side and read left to right.",
+   "explain_vi": "Bạn đã đọc được từ thật. Đặt các khối cạnh nhau và đọc từ trái sang phải.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "나무",
+     "rom": "na-mu",
+     "en": "tree",
+     "vi": "cây",
+     "id": "k0-4-1"
+    },
+    {
+     "kind": "word",
+     "text": "우유",
+     "rom": "u-yu",
+     "en": "milk",
+     "vi": "sữa",
+     "id": "k0-4-2"
+    },
+    {
+     "kind": "word",
+     "text": "아이",
+     "rom": "a-i",
+     "en": "child",
+     "vi": "đứa trẻ",
+     "id": "k0-4-3"
+    },
+    {
+     "kind": "word",
+     "text": "오이",
+     "rom": "o-i",
+     "en": "cucumber",
+     "vi": "dưa chuột",
+     "id": "k0-4-4"
+    },
+    {
+     "kind": "word",
+     "text": "바다",
+     "rom": "ba-da",
+     "en": "sea",
+     "vi": "biển",
+     "id": "k0-4-5"
+    },
+    {
+     "kind": "word",
+     "text": "하마",
+     "rom": "ha-ma",
+     "en": "hippo",
+     "vi": "hà mã",
+     "id": "k0-4-6"
+    }
+   ]
+  },
+  {
+   "id": "k1-1",
+   "stage": "k1",
+   "glyph": "까",
+   "title": "가 카 까",
+   "sub_en": "Plain, breathy, tense",
+   "sub_vi": "Thường, bật hơi, căng",
+   "explain_en": "Korean has three of some consonants. Plain 가 is relaxed. Breathy 카 has a puff of air. Tense 까 is tight and short, with no puff. English speakers hear 카 and 까 as the same at first: that's normal.",
+   "explain_vi": "Một số phụ âm tiếng Hàn có ba dạng. 가 thường thì thả lỏng. 카 bật hơi có luồng hơi. 까 căng thì gọn, không có hơi. Lúc đầu khó phân biệt 카 và 까 là chuyện bình thường.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "가",
+     "rom": "ga",
+     "en": "ga, relaxed",
+     "vi": "ga, thả lỏng",
+     "conf": [
+      "카",
+      "까"
+     ],
+     "id": "k1-1-1"
+    },
+    {
+     "kind": "sound",
+     "text": "카",
+     "rom": "ka",
+     "en": "ka, with a puff of air",
+     "vi": "k bật hơi",
+     "conf": [
+      "가",
+      "까"
+     ],
+     "id": "k1-1-2"
+    },
+    {
+     "kind": "sound",
+     "text": "까",
+     "rom": "kka",
+     "en": "kka, tight, no air",
+     "vi": "ca, căng, không hơi",
+     "conf": [
+      "가",
+      "카"
+     ],
+     "id": "k1-1-3"
+    },
+    {
+     "kind": "sound",
+     "text": "다",
+     "rom": "da",
+     "en": "da, relaxed",
+     "vi": "đa, thả lỏng",
+     "conf": [
+      "타",
+      "따"
+     ],
+     "id": "k1-1-4"
+    },
+    {
+     "kind": "sound",
+     "text": "타",
+     "rom": "ta",
+     "en": "ta, with a puff of air",
+     "vi": "tha, bật hơi",
+     "conf": [
+      "다",
+      "따"
+     ],
+     "id": "k1-1-5"
+    },
+    {
+     "kind": "sound",
+     "text": "따",
+     "rom": "tta",
+     "en": "tta, tight, no air",
+     "vi": "ta, căng",
+     "conf": [
+      "다",
+      "타"
+     ],
+     "id": "k1-1-6"
+    }
+   ]
+  },
+  {
+   "id": "k1-2",
+   "stage": "k1",
+   "glyph": "빠",
+   "title": "바 파 빠 · 자 차 짜",
+   "sub_en": "More sound trios",
+   "sub_vi": "Thêm bộ ba âm",
+   "explain_en": "The same pattern works for ㅂㅍㅃ and ㅈㅊㅉ. ㅅ has only two: 사 and tense 싸.",
+   "explain_vi": "Quy luật giống vậy với ㅂㅍㅃ và ㅈㅊㅉ. ㅅ chỉ có hai: 사 và 싸 căng.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "파",
+     "rom": "pa",
+     "en": "pa, with a puff of air",
+     "vi": "p bật hơi",
+     "conf": [
+      "바",
+      "빠"
+     ],
+     "id": "k1-2-1"
+    },
+    {
+     "kind": "sound",
+     "text": "빠",
+     "rom": "ppa",
+     "en": "ppa, tight, no air",
+     "vi": "pa, căng",
+     "conf": [
+      "바",
+      "파"
+     ],
+     "id": "k1-2-2"
+    },
+    {
+     "kind": "sound",
+     "text": "차",
+     "rom": "cha",
+     "en": "cha, with a puff of air",
+     "vi": "ch bật hơi",
+     "conf": [
+      "자",
+      "짜"
+     ],
+     "id": "k1-2-3"
+    },
+    {
+     "kind": "sound",
+     "text": "짜",
+     "rom": "jja",
+     "en": "jja, tight, no air",
+     "vi": "cha, căng",
+     "conf": [
+      "자",
+      "차"
+     ],
+     "id": "k1-2-4"
+    },
+    {
+     "kind": "sound",
+     "text": "싸",
+     "rom": "ssa",
+     "en": "ssa, tight",
+     "vi": "xa, căng",
+     "conf": [
+      "사",
+      "자"
+     ],
+     "id": "k1-2-5"
+    }
+   ]
+  },
+  {
+   "id": "k1-3",
+   "stage": "k1",
+   "glyph": "애",
+   "title": "애 에 와 워 야 요",
+   "sub_en": "Vowel combinations",
+   "sub_vi": "Nguyên âm ghép",
+   "explain_en": "Add a stroke to make “y” sounds: 야 ya, 여 yeo, 요 yo, 유 yu. Join two vowels to glide: 오+아 = 와 wa. 애 and 에 sound almost the same today.",
+   "explain_vi": "Thêm một nét để có âm “y”: 야 ya, 여 yeo, 요 yo, 유 yu. Ghép hai nguyên âm: 오+아 = 와 wa. 애 và 에 ngày nay nghe gần như giống nhau.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sound",
+     "text": "야",
+     "rom": "ya",
+     "en": "ya",
+     "vi": "ya",
+     "conf": [
+      "아",
+      "여"
+     ],
+     "id": "k1-3-1"
+    },
+    {
+     "kind": "sound",
+     "text": "여",
+     "rom": "yeo",
+     "en": "yeo",
+     "vi": "yơ",
+     "conf": [
+      "어",
+      "요"
+     ],
+     "id": "k1-3-2"
+    },
+    {
+     "kind": "sound",
+     "text": "요",
+     "rom": "yo",
+     "en": "yo",
+     "vi": "yô",
+     "conf": [
+      "오",
+      "유"
+     ],
+     "id": "k1-3-3"
+    },
+    {
+     "kind": "sound",
+     "text": "유",
+     "rom": "yu",
+     "en": "yu",
+     "vi": "yu",
+     "conf": [
+      "우",
+      "요"
+     ],
+     "id": "k1-3-4"
+    },
+    {
+     "kind": "sound",
+     "text": "와",
+     "rom": "wa",
+     "en": "wa",
+     "vi": "oa",
+     "conf": [
+      "워",
+      "아"
+     ],
+     "id": "k1-3-5"
+    },
+    {
+     "kind": "sound",
+     "text": "워",
+     "rom": "wo",
+     "en": "wo",
+     "vi": "uơ",
+     "conf": [
+      "와",
+      "어"
+     ],
+     "id": "k1-3-6"
+    },
+    {
+     "kind": "sound",
+     "text": "애",
+     "rom": "ae",
+     "en": "ae, like “e” in “bed”",
+     "vi": "e",
+     "conf": [
+      "에",
+      "아"
+     ],
+     "id": "k1-3-7"
+    }
+   ]
+  },
+  {
+   "id": "k1-4",
+   "stage": "k1",
+   "glyph": "피",
+   "title": "커피 · 토끼",
+   "sub_en": "Words with the new sounds",
+   "sub_vi": "Từ có âm mới",
+   "explain_en": "Read these with your new sounds. Listen for the puff in 커 and the tight 끼.",
+   "explain_vi": "Đọc các từ này với âm mới. Nghe hơi bật ở 커 và âm căng ở 끼.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "커피",
+     "rom": "keo-pi",
+     "en": "coffee",
+     "vi": "cà phê",
+     "id": "k1-4-1"
+    },
+    {
+     "kind": "word",
+     "text": "토끼",
+     "rom": "to-kki",
+     "en": "rabbit",
+     "vi": "con thỏ",
+     "id": "k1-4-2"
+    },
+    {
+     "kind": "word",
+     "text": "노래",
+     "rom": "no-rae",
+     "en": "song",
+     "vi": "bài hát",
+     "id": "k1-4-3"
+    },
+    {
+     "kind": "word",
+     "text": "사과",
+     "rom": "sa-gwa",
+     "en": "apple",
+     "vi": "táo",
+     "id": "k1-4-4"
+    },
+    {
+     "kind": "word",
+     "text": "의자",
+     "rom": "ui-ja",
+     "en": "chair",
+     "vi": "cái ghế",
+     "id": "k1-4-5"
+    },
+    {
+     "kind": "word",
+     "text": "아빠",
+     "rom": "a-ppa",
+     "en": "dad",
+     "vi": "bố",
+     "id": "k1-4-6"
+    }
+   ]
+  },
+  {
+   "id": "k2-1",
+   "stage": "k2",
+   "glyph": "밥",
+   "title": "밥 · 물 · 꽃",
+   "sub_en": "Final consonants",
+   "sub_vi": "Phụ âm cuối",
+   "explain_en": "A consonant at the bottom of a block is a final sound (batchim). Many letters end on only seven sounds: k, n, t, l, m, p, ng. So 꽃 ends on a “t” sound.",
+   "explain_vi": "Phụ âm ở đáy khối là âm cuối (batchim). Nhiều chữ chỉ kết thúc bằng bảy âm: k, n, t, l, m, p, ng. Nên 꽃 kết thúc bằng âm “t”.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "밥",
+     "rom": "bap",
+     "en": "rice, a meal",
+     "vi": "cơm, bữa ăn",
+     "id": "k2-1-1"
+    },
+    {
+     "kind": "word",
+     "text": "물",
+     "rom": "mul",
+     "en": "water",
+     "vi": "nước",
+     "id": "k2-1-2"
+    },
+    {
+     "kind": "word",
+     "text": "집",
+     "rom": "jip",
+     "en": "house, home",
+     "vi": "nhà",
+     "id": "k2-1-3"
+    },
+    {
+     "kind": "word",
+     "text": "문",
+     "rom": "mun",
+     "en": "door",
+     "vi": "cửa",
+     "id": "k2-1-4"
+    },
+    {
+     "kind": "word",
+     "text": "강",
+     "rom": "gang",
+     "en": "river",
+     "vi": "sông",
+     "id": "k2-1-5"
+    },
+    {
+     "kind": "word",
+     "text": "책",
+     "rom": "chaek",
+     "en": "book",
+     "vi": "sách",
+     "id": "k2-1-6"
+    },
+    {
+     "kind": "word",
+     "text": "꽃",
+     "rom": "kkot",
+     "en": "flower",
+     "vi": "hoa",
+     "id": "k2-1-7"
+    }
+   ]
+  },
+  {
+   "id": "k2-2",
+   "stage": "k2",
+   "glyph": "팬",
+   "title": "팬 · 콘서트 · 앨범",
+   "sub_en": "Fan words",
+   "sub_vi": "Từ của fan",
+   "explain_en": "Many fan words are borrowed from English and spelled the Korean way. They are easy wins.",
+   "explain_vi": "Nhiều từ của fan mượn từ tiếng Anh và viết theo kiểu Hàn. Học rất nhanh.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "팬",
+     "rom": "paen",
+     "en": "fan",
+     "vi": "người hâm mộ, fan",
+     "id": "k2-2-1"
+    },
+    {
+     "kind": "word",
+     "text": "콘서트",
+     "rom": "kon-seo-teu",
+     "en": "concert",
+     "vi": "buổi hòa nhạc",
+     "id": "k2-2-2"
+    },
+    {
+     "kind": "word",
+     "text": "앨범",
+     "rom": "ael-beom",
+     "en": "album",
+     "vi": "album",
+     "id": "k2-2-3"
+    },
+    {
+     "kind": "word",
+     "text": "티켓",
+     "rom": "ti-ket",
+     "en": "ticket",
+     "vi": "vé",
+     "id": "k2-2-4"
+    },
+    {
+     "kind": "word",
+     "text": "카메라",
+     "rom": "ka-me-ra",
+     "en": "camera",
+     "vi": "máy ảnh",
+     "id": "k2-2-5"
+    },
+    {
+     "kind": "word",
+     "text": "노래방",
+     "rom": "no-rae-bang",
+     "en": "karaoke room",
+     "vi": "phòng karaoke",
+     "id": "k2-2-6"
+    }
+   ]
+  },
+  {
+   "id": "k3-1",
+   "stage": "k3",
+   "glyph": "음",
+   "title": "음악 · 한국어",
+   "sub_en": "Linking sounds",
+   "sub_vi": "Nối âm",
+   "explain_en": "When a final consonant meets a vowel, it slides over: 음악 is said 으막 (eu-mak). The spelling stays the same.",
+   "explain_vi": "Khi phụ âm cuối gặp nguyên âm, nó trượt sang: 음악 đọc là 으막 (eu-mak). Chữ viết không đổi.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "음악",
+     "rom": "eu-mak",
+     "en": "music",
+     "vi": "âm nhạc",
+     "id": "k3-1-1"
+    },
+    {
+     "kind": "word",
+     "text": "한국어",
+     "rom": "han-gu-geo",
+     "en": "Korean (language)",
+     "vi": "tiếng Hàn",
+     "id": "k3-1-2"
+    },
+    {
+     "kind": "word",
+     "text": "좋아요",
+     "rom": "jo-a-yo",
+     "en": "good, I like it",
+     "vi": "tốt, thích",
+     "id": "k3-1-3"
+    },
+    {
+     "kind": "word",
+     "text": "맛있어요",
+     "rom": "ma-si-sseo-yo",
+     "en": "it's tasty",
+     "vi": "ngon",
+     "id": "k3-1-4"
+    },
+    {
+     "kind": "word",
+     "text": "감사합니다",
+     "rom": "gam-sa-ham-ni-da",
+     "en": "thank you",
+     "vi": "cảm ơn",
+     "id": "k3-1-5"
+    },
+    {
+     "kind": "word",
+     "text": "안녕하세요",
+     "rom": "an-nyeong-ha-se-yo",
+     "en": "hello",
+     "vi": "xin chào",
+     "id": "k3-1-6"
+    }
+   ]
+  },
+  {
+   "id": "k4-1",
+   "stage": "k4",
+   "glyph": "예",
+   "title": "이에요 / 예요",
+   "sub_en": "is / am / are, polite",
+   "sub_vi": "là (lịch sự)",
+   "explain_en": "Add 이에요 after a word ending in a consonant and 예요 after a vowel. It works for “I am”, “it is” and “they are”.",
+   "explain_vi": "Thêm 이에요 sau từ kết thúc bằng phụ âm và 예요 sau nguyên âm. Dùng cho “tôi là”, “đây là”, “họ là”.",
+   "examples": [
+    {
+     "text": "팬이에요",
+     "rom": "pae-ni-e-yo",
+     "en": "(I'm a) fan",
+     "vi": "(là) fan"
+    },
+    {
+     "text": "친구예요",
+     "rom": "chin-gu-ye-yo",
+     "en": "(it's a) friend",
+     "vi": "(là) bạn"
+    }
+   ],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "저는 {g} 팬이에요.",
+     "rom": "jeo-neun {g} pae-ni-e-yo",
+     "en": "I'm a {g} fan.",
+     "vi": "Tôi là fan {g}.",
+     "label": "팬이에요",
+     "id": "k4-1-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "친구예요.",
+     "rom": "chin-gu-ye-yo",
+     "en": "It's my friend.",
+     "vi": "Đây là bạn tôi.",
+     "label": "친구예요",
+     "id": "k4-1-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "이거 뭐예요?",
+     "rom": "i-geo mwo-ye-yo",
+     "en": "What is this?",
+     "vi": "Cái này là gì?",
+     "label": "뭐예요?",
+     "id": "k4-1-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "커피예요.",
+     "rom": "keo-pi-ye-yo",
+     "en": "It's coffee.",
+     "vi": "Là cà phê.",
+     "label": "커피예요",
+     "id": "k4-1-4"
+    },
+    {
+     "kind": "dialogue",
+     "text": "안녕하세요! 저는 유나예요.",
+     "rom": "an-nyeong-ha-se-yo! jeo-neun yu-na-ye-yo",
+     "en": "Hello! I'm Yuna.",
+     "vi": "Xin chào! Mình là Yuna.",
+     "label": "유나",
+     "replies": [
+      {
+       "text": "안녕하세요! 반가워요.",
+       "rom": "an-nyeong-ha-se-yo! ban-ga-wo-yo",
+       "en": "Hello! Nice to meet you.",
+       "vi": "Xin chào! Rất vui được gặp bạn.",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "안녕히 가세요.",
+       "rom": "an-nyeong-hi ga-se-yo",
+       "en": "Goodbye (to someone leaving).",
+       "vi": "Tạm biệt (người đang đi).",
+       "ok": false,
+       "why_en": "That's goodbye, and Yuna just arrived.",
+       "why_vi": "Đó là lời tạm biệt, mà Yuna vừa mới đến."
+      },
+      {
+       "text": "커피예요.",
+       "rom": "keo-pi-ye-yo",
+       "en": "It's coffee.",
+       "vi": "Là cà phê.",
+       "ok": false,
+       "why_en": "Yuna introduced herself, so greet her back.",
+       "why_vi": "Yuna vừa giới thiệu, hãy chào lại bạn ấy."
+      }
+     ],
+     "id": "k4-1-5"
+    }
+   ]
+  },
+  {
+   "id": "k4-2",
+   "stage": "k4",
+   "glyph": "는",
+   "title": "은 / 는",
+   "sub_en": "the topic marker",
+   "sub_vi": "trợ từ chủ đề",
+   "explain_en": "은 after a consonant, 는 after a vowel marks what you are talking about: 저는 = “as for me”.",
+   "explain_vi": "은 sau phụ âm, 는 sau nguyên âm, đánh dấu chủ đề đang nói: 저는 = “còn tôi thì”.",
+   "examples": [
+    {
+     "text": "저는",
+     "rom": "jeo-neun",
+     "en": "as for me",
+     "vi": "còn tôi"
+    },
+    {
+     "text": "음악은",
+     "rom": "eu-ma-geun",
+     "en": "as for music",
+     "vi": "còn âm nhạc"
+    }
+   ],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "{g:은/는} 정말 멋있어요.",
+     "rom": "{g} jeong-mal meo-si-sseo-yo",
+     "en": "{g} is really cool.",
+     "vi": "{g} thật sự rất ngầu.",
+     "label": "멋있어요",
+     "id": "k4-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "저는 학생이에요.",
+     "rom": "jeo-neun hak-saeng-i-e-yo",
+     "en": "I'm a student.",
+     "vi": "Tôi là học sinh.",
+     "label": "학생",
+     "id": "k4-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "오늘은 좋아요.",
+     "rom": "o-neu-reun jo-a-yo",
+     "en": "Today is good.",
+     "vi": "Hôm nay thì tốt.",
+     "label": "오늘은",
+     "id": "k4-2-3"
+    }
+   ]
+  },
+  {
+   "id": "k4-3",
+   "stage": "k4",
+   "glyph": "있",
+   "title": "있어요 / 없어요",
+   "sub_en": "there is, I have / there isn't",
+   "sub_vi": "có / không có",
+   "explain_en": "있어요 means something exists or you have it. 없어요 is the opposite. Raise your voice at the end to ask.",
+   "explain_vi": "있어요 nghĩa là có. 없어요 là không có. Lên giọng ở cuối để hỏi.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "티켓 있어요?",
+     "rom": "ti-ket i-sseo-yo",
+     "en": "Do you have a ticket?",
+     "vi": "Bạn có vé không?",
+     "label": "있어요?",
+     "id": "k4-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "시간이 없어요.",
+     "rom": "si-ga-ni eop-seo-yo",
+     "en": "I don't have time.",
+     "vi": "Tôi không có thời gian.",
+     "label": "없어요",
+     "id": "k4-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "앨범 있어요.",
+     "rom": "ael-beom i-sseo-yo",
+     "en": "I have the album.",
+     "vi": "Tôi có album.",
+     "label": "앨범",
+     "id": "k4-3-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "물 있어요?",
+     "rom": "mul i-sseo-yo",
+     "en": "Is there any water?",
+     "vi": "Có nước không?",
+     "label": "물",
+     "id": "k4-3-4"
+    },
+    {
+     "kind": "dialogue",
+     "text": "콘서트 티켓 있어요?",
+     "rom": "kon-seo-teu ti-ket i-sseo-yo",
+     "en": "Do you have a concert ticket?",
+     "vi": "Bạn có vé xem concert không?",
+     "label": "티켓?",
+     "replies": [
+      {
+       "text": "네, 있어요!",
+       "rom": "ne, i-sseo-yo",
+       "en": "Yes, I do!",
+       "vi": "Có, mình có!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "네, 없어요.",
+       "rom": "ne, eop-seo-yo",
+       "en": "Yes, I don't.",
+       "vi": "Vâng, không có.",
+       "ok": false,
+       "why_en": "네 (yes) and 없어요 (don't have) don't match here.",
+       "why_vi": "네 (vâng) và 없어요 (không có) không khớp ở đây."
+      },
+      {
+       "text": "아니요, 있어요.",
+       "rom": "a-ni-yo, i-sseo-yo",
+       "en": "No, I have one.",
+       "vi": "Không, mình có.",
+       "ok": false,
+       "why_en": "아니요 (no) and 있어요 (have) don't match.",
+       "why_vi": "아니요 (không) và 있어요 (có) không khớp."
+      }
+     ],
+     "id": "k4-3-5"
+    }
+   ]
+  },
+  {
+   "id": "k4-4",
+   "stage": "k4",
+   "glyph": "요",
+   "title": "가요 · 좋아해요",
+   "sub_en": "Polite verbs",
+   "sub_vi": "Động từ lịch sự",
+   "explain_en": "Polite everyday verbs end in 요. 가다 → 가요 (go), 먹다 → 먹어요 (eat), 좋아하다 → 좋아해요 (like). Use 을 after a consonant and 를 after a vowel for the thing you like.",
+   "explain_vi": "Động từ lịch sự hằng ngày kết thúc bằng 요. 가다 → 가요 (đi), 먹다 → 먹어요 (ăn), 좋아하다 → 좋아해요 (thích). Dùng 을 sau phụ âm, 를 sau nguyên âm cho thứ bạn thích.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "콘서트에 가요.",
+     "rom": "kon-seo-teu-e ga-yo",
+     "en": "I'm going to the concert.",
+     "vi": "Tôi đi xem concert.",
+     "label": "가요",
+     "id": "k4-4-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "저는 {g:을/를} 좋아해요.",
+     "rom": "jeo-neun {g} jo-a-hae-yo",
+     "en": "I like {g}.",
+     "vi": "Tôi thích {g}.",
+     "label": "좋아해요",
+     "id": "k4-4-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "밥 먹어요.",
+     "rom": "bap meo-geo-yo",
+     "en": "I'm having a meal.",
+     "vi": "Tôi ăn cơm.",
+     "label": "먹어요",
+     "id": "k4-4-3"
+    },
+    {
+     "kind": "sentence",
+     "text": "노래 들어요.",
+     "rom": "no-rae deu-reo-yo",
+     "en": "I'm listening to a song.",
+     "vi": "Tôi nghe nhạc.",
+     "label": "들어요",
+     "id": "k4-4-4"
+    },
+    {
+     "kind": "dialogue",
+     "text": "누구 좋아해요?",
+     "rom": "nu-gu jo-a-hae-yo",
+     "en": "Who do you like?",
+     "vi": "Bạn thích ai?",
+     "label": "누구?",
+     "replies": [
+      {
+       "text": "저는 {g:을/를} 좋아해요!",
+       "rom": "jeo-neun {g} jo-a-hae-yo",
+       "en": "I like {g}!",
+       "vi": "Mình thích {g}!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "저는 {g:이에요/예요}.",
+       "rom": "jeo-neun {g}-(i)e-yo",
+       "en": "I am {g}.",
+       "vi": "Mình là {g}.",
+       "ok": false,
+       "why_en": "That says you ARE the group.",
+       "why_vi": "Câu đó nói bạn LÀ nhóm nhạc đó."
+      },
+      {
+       "text": "좋아해요 안 저는.",
+       "rom": "jo-a-hae-yo an jeo-neun",
+       "en": "(mixed-up order)",
+       "vi": "(sai trật tự)",
+       "ok": false,
+       "why_en": "The verb goes last in Korean.",
+       "why_vi": "Động từ đứng cuối câu trong tiếng Hàn."
+      }
+     ],
+     "id": "k4-4-5"
+    }
+   ]
+  },
+  {
+   "id": "k4-5",
+   "stage": "k4",
+   "glyph": "안",
+   "title": "안 + verb",
+   "sub_en": "not",
+   "sub_vi": "không",
+   "explain_en": "Put 안 right before the verb to say “not”: 가요 → 안 가요.",
+   "explain_vi": "Đặt 안 ngay trước động từ để phủ định: 가요 → 안 가요.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "오늘은 안 가요.",
+     "rom": "o-neu-reun an ga-yo",
+     "en": "I'm not going today.",
+     "vi": "Hôm nay tôi không đi.",
+     "label": "안 가요",
+     "id": "k4-5-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "고기 안 먹어요.",
+     "rom": "go-gi an meo-geo-yo",
+     "en": "I don't eat meat.",
+     "vi": "Tôi không ăn thịt.",
+     "label": "안 먹어요",
+     "id": "k4-5-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "안 바빠요.",
+     "rom": "an ba-ppa-yo",
+     "en": "I'm not busy.",
+     "vi": "Tôi không bận.",
+     "label": "안 바빠요",
+     "id": "k4-5-3"
+    }
+   ]
+  },
+  {
+   "id": "k4-6",
+   "stage": "k4",
+   "glyph": "둘",
+   "title": "하나 둘 셋 · 두 송이",
+   "sub_en": "Counting things",
+   "sub_vi": "Đếm đồ vật",
+   "explain_en": "Korean counts things with native numbers plus a counter word. 하나 becomes 한 and 둘 becomes 두 before a counter: 꽃 두 송이 = two flowers.",
+   "explain_vi": "Tiếng Hàn đếm đồ vật bằng số thuần Hàn và từ chỉ đơn vị. 하나 thành 한, 둘 thành 두 trước đơn vị: 꽃 두 송이 = hai bông hoa.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "word",
+     "text": "하나",
+     "rom": "ha-na",
+     "en": "one",
+     "vi": "một",
+     "id": "k4-6-1"
+    },
+    {
+     "kind": "word",
+     "text": "둘",
+     "rom": "dul",
+     "en": "two",
+     "vi": "hai",
+     "id": "k4-6-2"
+    },
+    {
+     "kind": "word",
+     "text": "셋",
+     "rom": "set",
+     "en": "three",
+     "vi": "ba",
+     "id": "k4-6-3"
+    },
+    {
+     "kind": "word",
+     "text": "노란 꽃",
+     "rom": "no-ran kkot",
+     "en": "yellow flower",
+     "vi": "hoa vàng",
+     "label": "노란",
+     "id": "k4-6-4"
+    },
+    {
+     "kind": "word",
+     "text": "분홍 꽃",
+     "rom": "bun-hong kkot",
+     "en": "pink flower",
+     "vi": "hoa màu hồng",
+     "label": "분홍",
+     "id": "k4-6-5"
+    },
+    {
+     "kind": "sentence",
+     "text": "티켓 두 장 주세요.",
+     "rom": "ti-ket du jang ju-se-yo",
+     "en": "Two tickets, please.",
+     "vi": "Cho tôi hai vé.",
+     "label": "두 장",
+     "id": "k4-6-6"
+    },
+    {
+     "kind": "order",
+     "text": "노란 꽃 두 송이 주세요.",
+     "rom": "no-ran kkot du song-i ju-se-yo",
+     "en": "Two yellow flowers, please.",
+     "vi": "Cho mình hai bông hoa vàng.",
+     "label": "두 송이",
+     "want": {
+      "color": "yellow",
+      "count": 2
+     },
+     "options": [
+      {
+       "color": "yellow",
+       "count": 2
+      },
+      {
+       "color": "yellow",
+       "count": 3
+      },
+      {
+       "color": "pink",
+       "count": 2
+      }
+     ],
+     "id": "k4-6-7"
+    }
+   ]
+  },
+  {
+   "id": "k5-1",
+   "stage": "k5",
+   "glyph": "갔",
+   "title": "-았/었어요",
+   "sub_en": "past tense",
+   "sub_vi": "thì quá khứ",
+   "explain_en": "Past tense: 가요 → 갔어요 (went), 먹어요 → 먹었어요 (ate), 좋아요 → 좋았어요 (was good).",
+   "explain_vi": "Quá khứ: 가요 → 갔어요 (đã đi), 먹어요 → 먹었어요 (đã ăn), 좋아요 → 좋았어요 (đã tốt).",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "어제 콘서트에 갔어요.",
+     "rom": "eo-je kon-seo-teu-e ga-sseo-yo",
+     "en": "I went to the concert yesterday.",
+     "vi": "Hôm qua tôi đã đi xem concert.",
+     "label": "갔어요",
+     "id": "k5-1-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "정말 좋았어요!",
+     "rom": "jeong-mal jo-a-sseo-yo",
+     "en": "It was really good!",
+     "vi": "Thật sự rất tuyệt!",
+     "label": "좋았어요",
+     "id": "k5-1-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "밥 먹었어요?",
+     "rom": "bap meo-geo-sseo-yo",
+     "en": "Have you eaten?",
+     "vi": "Bạn ăn cơm chưa?",
+     "label": "먹었어요?",
+     "id": "k5-1-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "어제 뭐 했어요?",
+     "rom": "eo-je mwo hae-sseo-yo",
+     "en": "What did you do yesterday?",
+     "vi": "Hôm qua bạn làm gì?",
+     "label": "어제?",
+     "replies": [
+      {
+       "text": "콘서트에 갔어요!",
+       "rom": "kon-seo-teu-e ga-sseo-yo",
+       "en": "I went to a concert!",
+       "vi": "Mình đã đi xem concert!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "콘서트에 갈 거예요.",
+       "rom": "kon-seo-teu-e gal geo-ye-yo",
+       "en": "I will go to a concert.",
+       "vi": "Mình sẽ đi xem concert.",
+       "ok": false,
+       "why_en": "Yuna asked about yesterday, so use the past.",
+       "why_vi": "Yuna hỏi về hôm qua, nên dùng quá khứ."
+      },
+      {
+       "text": "콘서트에 가요.",
+       "rom": "kon-seo-teu-e ga-yo",
+       "en": "I'm going to a concert.",
+       "vi": "Mình đi xem concert.",
+       "ok": false,
+       "why_en": "That's the present. Yesterday needs 갔어요.",
+       "why_vi": "Đó là hiện tại. Hôm qua cần 갔어요."
+      }
+     ],
+     "id": "k5-1-4"
+    }
+   ]
+  },
+  {
+   "id": "k5-2",
+   "stage": "k5",
+   "glyph": "싶",
+   "title": "-고 싶어요",
+   "sub_en": "I want to",
+   "sub_vi": "muốn",
+   "explain_en": "Verb stem + 고 싶어요 = “I want to …”: 가다 → 가고 싶어요.",
+   "explain_vi": "Gốc động từ + 고 싶어요 = “tôi muốn …”: 가다 → 가고 싶어요.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "{g} 콘서트에 가고 싶어요.",
+     "rom": "{g} kon-seo-teu-e ga-go si-peo-yo",
+     "en": "I want to go to a {g} concert.",
+     "vi": "Tôi muốn đi concert của {g}.",
+     "label": "가고 싶어요",
+     "id": "k5-2-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "한국어를 배우고 싶어요.",
+     "rom": "han-gu-geo-reul bae-u-go si-peo-yo",
+     "en": "I want to learn Korean.",
+     "vi": "Tôi muốn học tiếng Hàn.",
+     "label": "배우고",
+     "id": "k5-2-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "보고 싶어요.",
+     "rom": "bo-go si-peo-yo",
+     "en": "I miss you.",
+     "vi": "Tôi nhớ bạn.",
+     "label": "보고 싶어요",
+     "id": "k5-2-3"
+    }
+   ]
+  },
+  {
+   "id": "k5-3",
+   "stage": "k5",
+   "glyph": "거",
+   "title": "-(으)ㄹ 거예요",
+   "sub_en": "will",
+   "sub_vi": "sẽ",
+   "explain_en": "Future plans: stem + ㄹ 거예요 after a vowel, 을 거예요 after a consonant: 가다 → 갈 거예요.",
+   "explain_vi": "Kế hoạch tương lai: gốc + ㄹ 거예요 sau nguyên âm, 을 거예요 sau phụ âm: 가다 → 갈 거예요.",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "내일 갈 거예요.",
+     "rom": "nae-il gal geo-ye-yo",
+     "en": "I'll go tomorrow.",
+     "vi": "Ngày mai tôi sẽ đi.",
+     "label": "갈 거예요",
+     "id": "k5-3-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "앨범을 살 거예요.",
+     "rom": "ael-beo-meul sal geo-ye-yo",
+     "en": "I'm going to buy the album.",
+     "vi": "Tôi sẽ mua album.",
+     "label": "살 거예요",
+     "id": "k5-3-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "뭐 먹을 거예요?",
+     "rom": "mwo meo-geul geo-ye-yo",
+     "en": "What will you eat?",
+     "vi": "Bạn sẽ ăn gì?",
+     "label": "먹을 거예요?",
+     "id": "k5-3-3"
+    }
+   ]
+  },
+  {
+   "id": "k5-4",
+   "stage": "k5",
+   "glyph": "주",
+   "title": "-아/어 주세요",
+   "sub_en": "please (do it for me)",
+   "sub_vi": "làm ơn (giúp tôi)",
+   "explain_en": "Ask someone to do something for you: 찍다 → 찍어 주세요 (please take [a photo]).",
+   "explain_vi": "Nhờ ai đó làm gì cho bạn: 찍다 → 찍어 주세요 (làm ơn chụp giúp).",
+   "examples": [],
+   "items": [
+    {
+     "kind": "sentence",
+     "text": "사진 찍어 주세요.",
+     "rom": "sa-jin jji-geo ju-se-yo",
+     "en": "Please take a photo.",
+     "vi": "Làm ơn chụp ảnh giúp tôi.",
+     "label": "찍어 주세요",
+     "id": "k5-4-1"
+    },
+    {
+     "kind": "sentence",
+     "text": "천천히 말해 주세요.",
+     "rom": "cheon-cheon-hi mal-hae ju-se-yo",
+     "en": "Please speak slowly.",
+     "vi": "Làm ơn nói chậm thôi.",
+     "label": "천천히",
+     "id": "k5-4-2"
+    },
+    {
+     "kind": "sentence",
+     "text": "다시 한 번 말해 주세요.",
+     "rom": "da-si han beon mal-hae ju-se-yo",
+     "en": "Please say it one more time.",
+     "vi": "Làm ơn nói lại một lần nữa.",
+     "label": "다시",
+     "id": "k5-4-3"
+    },
+    {
+     "kind": "dialogue",
+     "text": "사진 찍어 줄까요?",
+     "rom": "sa-jin jji-geo jul-kka-yo",
+     "en": "Shall I take a photo for you?",
+     "vi": "Mình chụp ảnh giúp bạn nhé?",
+     "label": "사진",
+     "replies": [
+      {
+       "text": "네, 찍어 주세요!",
+       "rom": "ne, jji-geo ju-se-yo",
+       "en": "Yes, please take one!",
+       "vi": "Vâng, chụp giúp mình nhé!",
+       "ok": true,
+       "why_en": "",
+       "why_vi": ""
+      },
+      {
+       "text": "아니요, 찍어 주세요.",
+       "rom": "a-ni-yo, jji-geo ju-se-yo",
+       "en": "No, please take one.",
+       "vi": "Không, chụp giúp mình nhé.",
+       "ok": false,
+       "why_en": "아니요 (no) clashes with asking for the photo.",
+       "why_vi": "아니요 (không) mâu thuẫn với việc nhờ chụp."
+      },
+      {
+       "text": "네, 찍었어요.",
+       "rom": "ne, jji-geo-sseo-yo",
+       "en": "Yes, I took it.",
+       "vi": "Vâng, mình chụp rồi.",
+       "ok": false,
+       "why_en": "Yuna is offering now; nothing was taken yet.",
+       "why_vi": "Yuna đang đề nghị, chưa chụp gì cả."
+      }
+     ],
+     "id": "k5-4-4"
+    }
+   ]
+  }
+ ]
+}
